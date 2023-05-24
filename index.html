@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://https://www.w3schools.com/w3css/w3css_templates.aspcdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="team.html">Our Team</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="courses.html">Courses</a>
+        </li>
+		  <li class="nav-item">
+          <a class="nav-link" href="job.html">Jobs</a>
+        </li>
+		  <li class="nav-item">
+          <a class="nav-link" href="apply.html">Apply Here</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+    float: left;
+    width: 30%;
+    padding: 0 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.right {
+  float: left;
+  width: 70%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media (min-width: 1000px) {
+}
+.thumbnail {
+	width: 100px;
+	border-radius: 200px;
+	height: 100px;
+	margin-left: auto;
+}
+.thumbnail_align {
+	text-align: center;
+}
+.social {
+	text-align: center;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	background-color: #333;
+	clear: both;
+	overflow: auto;
+}
+.social_icon {
+	width: 25%;
+	text-align: center;
+	float: left;
+	transition: all 0.3s linear;
+	line-height: 0px;
+	padding-top: 7px;
+}
+.container .social .social_icon:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+</style>
+<body>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner" align="center">
+    <div class="carousel-item active">
+	  <img src="Image/bigenough.png" alt="bigenough" class="d-block" style="width:75%"> 
+    </div>
+    <div class="carousel-item">
+      <img src="Image/designprocess.png" alt="designprocess" class="d-block" style="width:75%">
+    </div>
+    <div class="carousel-item">
+      <img src="Image/unbeatable.png" alt="unbeatable" class="d-block" style="width:75%" >
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev"  type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+ 
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>Hot Beans Web</h2>
+	  <img src="Image/Banner.png.png" width="500" height="200" alt=""/>
+<p>Here at Hot Beans Web we design websites with the business and end user in mind. We work with many businesses, small and large, creating websites personalised to them. Our team works closely  with customers so we can make a site that will help them achieve their goals and help thier business grow. We strive to build sites that are high quiality, affordable, and give the end user a great experience.</p>
+
+      <h2 class="mt-5">Where</h2>
+  <div class="right">
+    <table width="225" height="140" border="0">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9932.984347933258!2d-0.0177573!3d51.5087011!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487602b6b4a87d01%3A0x69556d0211d032ca!2sNew%20City%20College%2C%20Tower%20Hamlets!5e0!3m2!1sen!2suk!4v1679484323988!5m2!1sen!2suk" width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+		</iframe>
+    </table>
+  </div>
+    </div>
+  </div>
+</div>
+	  <div class="social">
+    <p class="social_icon"><a href="https://en-gb.facebook.com/"><img src="Logos/facebook-logo-icon-facebook-icon-png-images-icons-and-png-backgrounds-1.png" width="50" height="50" alt=""/></a></p>
+    <p class="social_icon"><a href="https://uk.linkedin.com/"><img src="Logos/linkedin-logo-design-30.png" width="50" height="50" alt=""/></a></p>
+    <p class="social_icon"><a href="https://twitter.com/?lang=en"><img src="Logos/twitter-logo-vector-png-clipart-1.png" width="50" height="50" alt=""/></a></p>
+    <p class="social_icon"><a href="https://www.instagram.com/"><img src="Logos/logo-ig-stunning-instagram-logo-vector-download-for-new-7.png" width="50" height="50" alt=""/></a></p>
+  </div>
+</body>
+</html>
